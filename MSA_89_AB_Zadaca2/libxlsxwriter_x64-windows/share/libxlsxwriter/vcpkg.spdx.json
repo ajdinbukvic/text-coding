@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/libxlsxwriter-x64-windows-1.1.8#1-7c6da481-f040-42c5-a56e-e4f438cccfb5",
+  "name": "libxlsxwriter:x64-windows@1.1.8#1 81bc2a1fb929c6d29cc85a65e3ee0ff916fd9cb3493f70c835293f4a57319278",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2025-01-29-a75ad067f470c19f030361064e32a2585392bee2"
+    ],
+    "created": "2025-01-30T03:35:40Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "libxlsxwriter",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.1.8#1",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/libxlsxwriter",
+      "homepage": "https://github.com/jmcnamara/libxlsxwriter",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Libxlsxwriter is a C library that can be used to write text, numbers, formulas and hyperlinks to multiple worksheets in an Excel 2007+ XLSX file.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "libxlsxwriter:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "81bc2a1fb929c6d29cc85a65e3ee0ff916fd9cb3493f70c835293f4a57319278",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "jmcnamara/libxlsxwriter",
+      "downloadLocation": "git+https://github.com/jmcnamara/libxlsxwriter@v1.1.8",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "4d1df3b66e694629025ba4154a746d896f9fa32c727267cfbeacf72a3fc70d1b34c7bc767a03bca81395bbe2ff366fc4f4184c2c40126bc6b2d58b33a758cc8f"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/DT User3/vcpkg/ports/libxlsxwriter/dependencies.diff",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bfdb4b8a385aba4bc5dbbfd082775d73713826c760877e02f852f4798d61eea6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/DT User3/vcpkg/ports/libxlsxwriter/portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "25762eced27a2f321831df317c1847300541788a255a6e9f3a7cdd807bb09e07"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/DT User3/vcpkg/ports/libxlsxwriter/vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f163c119d9fa9ffdd66db25ed9e42ffbe5b17bffa2f99d2542a7458037985988"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
